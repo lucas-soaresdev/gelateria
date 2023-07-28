@@ -5,6 +5,7 @@
     background-position: center center;
     background-size: calc(100vh - 55px);
     height: calc(100vh - 55px);
+    max-height: 1024px;
     text-align: center;
 }
 .container-banner{
@@ -23,7 +24,9 @@
 /* */
 
 .box-sabores, .box-eventos, .box-sobre{
+    max-width: 1518px;
     height: auto;
+    margin: 0 auto;
     display: flex;
     background-color: #fff;
     text-align: center;
@@ -91,3 +94,10 @@
         font-size: 42px;
     }
 }
+@media (min-height: 1024px){
+    .box-banner{
+        background-size: 1024px;
+    }
+}
+
+
