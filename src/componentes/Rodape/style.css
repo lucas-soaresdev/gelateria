@@ -17,10 +17,32 @@
     justify-content: space-around;
     width: 100%;
 }
+.rodape h3{
+    text-transform: uppercase;
+}
 .rodape .cards{
     width: 200px;
 }
 .rodape span{
     color: #f9db79;
     font-weight: 600;
+}
+
+@media screen and (max-width: 768px){
+    .rodape{
+        height: auto;
+        text-align: center;
+        padding: 62px 16px 30px;
+    }
+    .container-rodape{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .rodape .cards{
+        margin-bottom: 20px;
+    }
+    .rodape p:last-of-type{
+        font-size: 14px;
+    }
 }

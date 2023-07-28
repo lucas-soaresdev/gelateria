@@ -5,6 +5,7 @@
     background-position: center center;
     background-size: 90vh;
     height: 100vh;
+    text-align: center;
 }
 .container-banner{
     width: 100%;
@@ -22,9 +23,10 @@
 /* */
 
 .box-sabores, .box-eventos, .box-sobre{
-    height: 500px;
+    height: auto;
     display: flex;
     background-color: #fff;
+    text-align: center;
 }
 :is(.box-sabores, .box-eventos, .box-sobre) div{
     width: calc(100% / 2);
@@ -38,8 +40,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 100px;
     color: #000;
+    padding: 30px;
 }
 :is(.box-sabores, .box-eventos, .box-sobre) h2{
     font-size: 32px;
@@ -54,5 +56,26 @@
 }
 :is(.box-sabores, .box-eventos, .box-sobre) p{
     font-size: 14px;
-    padding: 0 62px;
+    max-width: 442px;
+}
+
+
+@media screen and (max-width: 768px){
+    .container-banner h1{
+        font-size: 60px;
+    }
+    .box-sabores, .box-eventos, .box-sobre{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    :is(.box-sabores, .box-eventos, .box-sobre) div{
+        width: 100%;
+    }
+    :is(.box-sabores, .box-eventos, .box-sobre) .container-texto{
+        padding: 20% 30px;
+    }
+    .box-eventos{
+        flex-direction: column-reverse;
+    }
 }
