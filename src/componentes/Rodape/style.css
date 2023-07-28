@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 436px){
     .rodape div:last-of-type{
-        width: 95%;
+        max-width: 316px;
         font-size: 14px;
     }
 }

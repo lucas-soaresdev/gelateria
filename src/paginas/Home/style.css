@@ -3,8 +3,8 @@
     background-image: url('../../../public/assets/banner-home.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 90vh;
-    height: 100vh;
+    background-size: calc(100vh - 55px);
+    height: calc(100vh - 55px);
     text-align: center;
 }
 .container-banner{
@@ -61,6 +61,10 @@
 
 
 @media screen and (max-width: 768px){
+    .box-banner{
+       height: calc(100vh - 111px);
+       background-size: calc(90vh - 111px);
+    }
     .container-banner h1{
         font-size: 60px;
     }
