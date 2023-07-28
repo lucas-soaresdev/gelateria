@@ -1,0 +1,22 @@
+.rodape{
+    background-color: #000;
+    height: 300px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 62px 0 20px;
+}
+.rodape img{
+    width: 80px;
+    height: 80px;
+}
+.container-rodape{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.rodape .cards{
+    width: 200px;
+}

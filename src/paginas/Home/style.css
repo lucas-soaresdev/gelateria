@@ -24,6 +24,7 @@
 .box-sabores, .box-eventos, .box-sobre{
     height: 500px;
     display: flex;
+    background-color: #fff;
 }
 :is(.box-sabores, .box-eventos, .box-sobre) div{
     width: calc(100% / 2);
