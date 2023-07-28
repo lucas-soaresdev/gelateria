@@ -79,3 +79,11 @@
         flex-direction: column-reverse;
     }
 }
+@media screen and (max-width: 390px){
+    .box-banner{
+        padding: 10px;
+    }
+    .box-banner h1{
+        font-size: 42px;
+    }
+}

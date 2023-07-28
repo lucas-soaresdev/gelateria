@@ -42,7 +42,11 @@
     .rodape .cards{
         margin-bottom: 20px;
     }
-    .rodape p:last-of-type{
+}
+
+@media screen and (max-width: 436px){
+    .rodape div:last-of-type{
+        width: 95%;
         font-size: 14px;
     }
 }
