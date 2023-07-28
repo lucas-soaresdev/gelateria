@@ -1,0 +1,18 @@
+.box-banner-sobre{
+    height: calc(100vh - 55px);
+    max-height: 1024px;
+    background-image: url('../../../public/assets/banner-sobre.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box-banner-sobre h1{
+    font-size: 92px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 5px 5px #474747;
+}
