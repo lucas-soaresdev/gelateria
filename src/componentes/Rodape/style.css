@@ -9,8 +9,8 @@
     padding: 62px 0 20px;
 }
 .rodape img{
-    width: 80px;
-    height: 80px;
+    width: auto;
+    height: 130px;
 }
 .container-rodape{
     display: flex;
@@ -34,12 +34,16 @@
         text-align: center;
         padding: 62px 16px 30px;
     }
+    .rodape img{
+        margin-bottom: 12px;
+    }
     .container-rodape{
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
     }
     .rodape .cards{
+        width: auto;
         margin-bottom: 20px;
     }
 }
