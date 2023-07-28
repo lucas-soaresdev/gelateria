@@ -10,16 +10,16 @@ export default function Home(){
         <Topo />
         <main>
             <section className="box-banner">
-                <div>
+                <div className="container-banner">
                     <h1>sorvete artesanal</h1>
                 </div>
             </section>
 
             <section className="box-sabores">
-                <div>
+                <div className="container-imagem">
                     <img src="./assets/banner-sabores.jpg"/>
                 </div>
-                <div>
+                <div className="container-texto">
                     <h2>nossos sabores</h2>
                     <span>Novos e deliciosos!</span>
                     <p>Sorvete bom é aquele feito com os melhores ingredientes! Aqui na gelateria todos os nossos produtos são naturais, à base de frutas e sem nenhum conservante! Também temos opções sem lactose e sem açúcar. Venha conhecer e perceber que tem como o sorvete ser delicioso e saudável ao mesmo tempo!</p>
@@ -27,7 +27,7 @@ export default function Home(){
             </section>
 
             <section className="box-eventos">
-                <div>
+                <div className="container-texto">
                     <h2>nossos eventos</h2>
                     <span>Delicias com sorvete!</span>
                     <p>Mais do que uma sorveteria, uma extensão da sua casa! Estamos aqui prontinhos para te atender e oferecer os melhores eventos com os melhores sorvete da sua vida! Venha nos conhecer e passar um tempo aqui com a gente.</p>

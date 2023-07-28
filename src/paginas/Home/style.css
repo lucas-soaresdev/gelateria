@@ -1,0 +1,56 @@
+.box-banner{
+    background-color: #f9db79;
+    background-image: url('../../../public/assets/banner-home.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90vh;
+    height: 100vh;
+}
+.container-banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-banner h1{
+    text-transform: uppercase;
+    font-size: 92px;
+    color: #fff;
+    text-shadow: 1px 5px 3px #474747;
+}
+/* */
+
+.box-sabores, .box-eventos{
+    height: 500px;
+    display: flex;
+}
+.box-sabores div, .box-eventos div{
+    width: calc(100% / 2);
+}
+.box-sabores img, .box-eventos img{
+    width: 100%;
+    height: 100%;
+}
+.box-sabores .container-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+.box-sabores h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 35px;
+}
+.box-sabores span{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.box-sabores p{
+    font-size: 14px;
+    padding: 0 62px;
+}
