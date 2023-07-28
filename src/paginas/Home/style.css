@@ -3,7 +3,7 @@
     background-image: url('../../../public/assets/banner-home.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: calc(100vh - 55px);
+    background-size: contain;
     height: calc(100vh - 55px);
     max-height: 1024px;
     text-align: center;
