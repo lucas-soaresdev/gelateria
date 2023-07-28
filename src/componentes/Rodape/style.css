@@ -20,3 +20,7 @@
 .rodape .cards{
     width: 200px;
 }
+.rodape span{
+    color: #f9db79;
+    font-weight: 600;
+}
